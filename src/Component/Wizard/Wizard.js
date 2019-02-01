@@ -8,7 +8,7 @@ import WizardStep3 from './WizardStep3'
 export default (
             <Switch>
                 <Route exact path="/wizard/step#1" component={WizardStep1} />
-                <Route path="/wizard/step#3" component={WizardStep2} />
+                <Route path="/wizard/step#2" component={WizardStep2} />
                 <Route path="/wizard/step#3" component={WizardStep3} />
             </Switch>
     )

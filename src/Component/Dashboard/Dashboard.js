@@ -52,7 +52,7 @@ export default class Dashboard extends Component{
             ))
             }
              <div className='property_button'>
-             <Link to={`/WizardStep1`}><button className='add_property'> Add Property</button></Link>
+             <Link to="/wizard/step#1"><button className='add_property'> Add Property</button></Link>
             </div>
             </div>
             
